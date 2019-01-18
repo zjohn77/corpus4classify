@@ -11,11 +11,13 @@ def main():
    if CORPUS == 'bbcnews':
       from bbcnews import data, target
       print(len(data), len(target))
+      return data, target
    elif CORPUS == 'newsgrp':
       from newsgrp import data, target
       print(len(data), len(target))
+      return data, target
    else:
       raise Exception("Corpus not found.")
 
 if __name__ == "__main__":
-   main()
+   data, target = main()
