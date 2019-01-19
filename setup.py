@@ -6,7 +6,7 @@ with open("README.md") as f:
 
 setup(
    name=NAME,
-   version="0.1.4",
+   version="0.1.5",
    license='MIT',
    description="Convolutional Neural Networks--made easy to reapply to new problems",
    long_description=LONG_DESCRIPTION,

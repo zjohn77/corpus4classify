@@ -1,4 +1,4 @@
-def controller(corpus):
+def getdata(corpus):
    if corpus == 'bbcnews':
       from .bbcnews import data, target
    elif corpus == 'newsgrp':
