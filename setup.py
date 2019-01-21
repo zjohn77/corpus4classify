@@ -6,9 +6,9 @@ with open("README.md") as f:
 
 setup(
    name=NAME,
-   version="0.1.7",
+   version="1.0.0",
    license='MIT',
-   description="Convolutional Neural Networks--made easy to reapply to new problems",
+   description="A number of corpora containing categorized documents for the use of text classification research.",
    long_description=LONG_DESCRIPTION,
    long_description_content_type="text/markdown",
    url="https://github.com/zjohn77/"+NAME,
@@ -21,11 +21,7 @@ setup(
    ],
    keywords='NLP-corpus',
    install_requires=[
-      'scipy>=1.1',
-      'numpy>=1.15',
-      'scikit_learn>=0.20',
-      'PyYAML>=3',
-      'gensim>=3'
+      'scikit_learn>=0.20'
    ],
    packages=find_packages(),
    include_package_data = True
