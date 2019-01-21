@@ -1,0 +1,5 @@
+include corpus4classify/bbcnews/data/business/*.txt
+include corpus4classify/bbcnews/data/entertainment/*.txt
+include corpus4classify/bbcnews/data/politics/*.txt
+include corpus4classify/bbcnews/data/sports/*.txt
+include corpus4classify/bbcnews/data/tech/*.txt

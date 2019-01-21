@@ -6,7 +6,7 @@ with open("README.md") as f:
 
 setup(
    name=NAME,
-   version="0.1.5",
+   version="0.1.7",
    license='MIT',
    description="Convolutional Neural Networks--made easy to reapply to new problems",
    long_description=LONG_DESCRIPTION,
@@ -27,5 +27,6 @@ setup(
       'PyYAML>=3',
       'gensim>=3'
    ],
-   packages=find_packages()
+   packages=find_packages(),
+   include_package_data = True
 )
