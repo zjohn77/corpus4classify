@@ -1,7 +1,6 @@
 """
-Entire model building process:
-   1. train model: deep learn on training cases; evaluate OOS prediction accuracy.
-   2. return the trained model object for further analysis.
+This is the famed 20 Newsgroups dataset. The 'subset' argument can be 'all',
+'train', or 'test' as defined by sklearn.
 """
 from sklearn.datasets import fetch_20newsgroups
 

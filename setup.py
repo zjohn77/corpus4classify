@@ -6,7 +6,7 @@ with open("README.md") as f:
 
 setup(
    name=NAME,
-   version="1.0.0",
+   version="1.0.1",
    license='MIT',
    description="A number of corpora containing categorized documents for the use of text classification research.",
    long_description=LONG_DESCRIPTION,

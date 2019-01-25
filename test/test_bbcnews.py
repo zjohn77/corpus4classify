@@ -1,24 +1,24 @@
 """
-Test the usage module's functions: extract_data, reshape. 
+Test the bbcnews module's functions: extract_data, reshape. 
 """
 from unittest import TestCase
 from pathlib import Path
-module_path = Path(__file__).resolve().parents[1] ## cd ..
-import sys; sys.path.insert(0, str(module_path))
-
-from usage import extract_data, reshape
+import sys; sys.path.insert(0, 
+                            Path(__file__).parents[1]
+                           )
+from corpus4classify.bbcnews import extract_data, reshape
 
 class Usage(TestCase):
    @classmethod
    def setUpClass(cls):
-      cls.EXTRACT = extract_data('data/')
+      cls.EXTRACT = extract_data()
    
    def test_extract_data(self):
-      '''Should traverse the directory supplied as argument (the "data/" here), and
-      load all files into a dict with 5 keys corresponding to the 5 folders under "data/".
+      '''Should traverse the directory; load all files into a dict 
+      with 5 keys corresponding to the 5 folders under "data/".
       '''
       self.assertEqual(set(Usage.EXTRACT.keys()),
-                       {'tech', 'sport', 'politics', 'business', 'entertainment'}
+                       {'tech', 'sports', 'politics', 'business', 'entertainment'}
                       )
 
    def test_reshape(self):
