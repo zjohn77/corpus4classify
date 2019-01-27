@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/zjohn77/corpus4classify.svg?branch=master)](https://travis-ci.org/zjohn77/corpus4classify)
-[![Python Version](https://img.shields.io/pypi/pyversions/corpus4classify.svg?colorB=green&style=plastic)](https://pypi.org/project/corpus4classify/)
-[![License](https://img.shields.io/github/license/zjohn77/corpus4classify.svg?style=plastic)](https://opensource.org/licenses/MIT)
+[![PyPI](https://img.shields.io/pypi/v/corpus4classify.svg)](https://pypi.org/project/corpus4classify/)
+[![License](https://img.shields.io/github/license/zjohn77/corpus4classify.svg)]()
 
 ## 1. Features
 * several corpora for NLP and specifically text classification research
