@@ -1,5 +1,8 @@
 [![Build Status](https://travis-ci.org/zjohn77/corpus4classify.svg?branch=master)](https://travis-ci.org/zjohn77/corpus4classify)
-[![PyPI version](https://badge.fury.io/py/corpus4classify@1x.png)](https://badge.fury.io/py/corpus4classify)
+
+[![PyPI version](https://img.shields.io/pypi/v/corpus4classify.svg?colorB=green)]
+(https://pypi.python.org/pypi/corpus4classify/)
+
 ## 1. Features
 * several corpora for NLP and specifically text classification research
 * the original source data in multiple separate text files
